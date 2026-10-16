@@ -12,8 +12,8 @@ importers:
         specifier: ^7.1.2
         version: 7.1.2(zod@3.23.8)
       '@types/koa':
-        specifier: 2.15.0
-        version: 2.15.0
+        specifier: 2.15.2
+        version: 2.15.2
       '@types/koa-bodyparser':
         specifier: 5.0.2
         version: 5.0.2
@@ -21,8 +21,8 @@ importers:
         specifier: 7.4.8
         version: 7.4.8
       koa:
-        specifier: 2.15.3
-        version: 2.15.3
+        specifier: 2.16.4
+        version: 2.16.4
       koa-bodyparser:
         specifier: 4.4.1
         version: 4.4.1
@@ -227,6 +227,9 @@ packages:
 
   '@types/koa@2.15.0':
     resolution: {integrity: sha512-7QFsywoE5URbuVnG3loe03QXuGajrnotr3gQkXcEBShORai23MePfFYdhz90FEtBBpkyIYQbVD+evKtloCgX3g==}
+
+  '@types/koa@2.15.2':
+    resolution: {integrity: sha512-CB+iyjjh1uS5N6/CKwXvw0qA7USMS2WVc4Tjf660yCjhdvqzNr8gdFcIawB41zGGptOQ+d1fnpaQWIIUXYxR3w==}
 
   '@types/mime@1.3.5':
     resolution: {integrity: sha512-/pyBZWSLD2n0dcHE3hq8s8ZvcETHtEuF+3E7XVt0Ig2nvsVQXdghHVcEkIWjy9A0wKfTn97a/PSDYohKIlnP/w==}
@@ -571,8 +574,8 @@ packages:
     resolution: {integrity: sha512-gaDdj3GtzoLoeosacd50kBBTnnh3B9AYxDThQUo4sfUyXdOhY6ku1qyZKW88tQCRgc3Sw6ChXYXWZwwgjOxE0w==}
     engines: {node: '>= 12'}
 
-  koa@2.15.3:
-    resolution: {integrity: sha512-j/8tY9j5t+GVMLeioLaxweJiKUayFhlGqNTzf2ZGwL0ZCQijd2RLHK0SLW5Tsko8YyyqCZC2cojIb0/s62qTAg==}
+  koa@2.16.4:
+    resolution: {integrity: sha512-3An0GCLDSR34tsCO4H8Tef8Pp2ngtaZDAZnsWJYelqXUK5wyiHvGItgK/xcSkmHLSTn1Jcho1mRQs2ehRzvKKw==}
     engines: {node: ^4.8.4 || ^6.10.1 || ^7.10.1 || >= 8.1.4}
 
   lru-cache@11.0.1:
@@ -985,7 +988,7 @@ snapshots:
 
   '@types/koa-bodyparser@5.0.2':
     dependencies:
-      '@types/koa': 2.15.0
+      '@types/koa': 2.15.2
 
   '@types/koa-compose@3.2.8':
     dependencies:
@@ -993,9 +996,20 @@ snapshots:
 
   '@types/koa-router@7.4.8':
     dependencies:
-      '@types/koa': 2.15.0
+      '@types/koa': 2.15.2
 
   '@types/koa@2.15.0':
+    dependencies:
+      '@types/accepts': 1.3.7
+      '@types/content-disposition': 0.5.8
+      '@types/cookies': 0.9.0
+      '@types/http-assert': 1.5.5
+      '@types/http-errors': 2.0.4
+      '@types/keygrip': 1.0.6
+      '@types/koa-compose': 3.2.8
+      '@types/node': 22.5.5
+
+  '@types/koa@2.15.2':
     dependencies:
       '@types/accepts': 1.3.7
       '@types/content-disposition': 0.5.8
@@ -1351,7 +1365,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  koa@2.15.3:
+  koa@2.16.4:
     dependencies:
       accepts: 1.3.8
       cache-content-type: 1.0.1
